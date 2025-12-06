@@ -66,25 +66,9 @@ These experiments reveal strengths and limitations of TreeSpline across regimes 
 
 ## 🎯 Research Context
 
-This repository is part of an ongoing research project on **hybrid statistical–machine learning models**, combining interpretability of GAMs with flexibility of tree-based partitioning.  
+This repository is a research project on **hybrid statistical–machine learning models**, combining interpretability of GAMs with flexibility of tree-based partitioning.  
 It aims to provide:
 
 - A reproducible benchmarking framework  
 - A foundation for publishing TreeSpline as a novel modeling approach  
 - Insight into how structural partitioning improves spline-based regression  
-
----
-
-## 🚀 Goals & Future Work
-- Refinement of TreeSpline variants with adaptive leaf modeling  
-- Formal theoretical analysis  
-- Integration with `sklearn`-style API for broader usability  
-- Expanded benchmarking on real datasets  
-
----
-
-If you’d like to enhance this README, I can add:
-- Example usage code  
-- Diagrams explaining the method  
-- A “How to run the experiments” section  
-- Badges (e.g., Python version, license, etc.)
