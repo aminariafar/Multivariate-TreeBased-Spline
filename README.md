@@ -1,6 +1,6 @@
 # 🌳 TreeSpline: A Tree-Guided Spline / GAM Modeling Framework
 
-This repository contains the implementation and experimental evaluation of a **new spline-based modeling approach**, called **TreeSpline**, developed as part of a research collaboration with **Dr. Abdollah Safari**.  
+This repository contains the implementation and experimental evaluation of a **new spline-based modeling approach**, called **TreeSpline**, developed as part of a research collaboration with [**Dr. Abdollah Safari**](https://science.ut.ac.ir/~a.safari).  
 The method extends classical spline models (and their multivariate generalization, **Generalized Additive Models — GAMs**) by introducing a **decision-tree–guided partitioning** of the feature space, followed by **local polynomial modeling within each leaf**.
 
 The project includes:
