@@ -4,7 +4,7 @@ This repository contains the implementation and experimental evaluation of a **n
 The method extends classical spline models (and their multivariate generalization, **Generalized Additive Models — GAMs**) by introducing a **decision-tree–guided partitioning** of the feature space, followed by **local polynomial modeling within each leaf**.
 
 The project includes:
-- Implementation of multiple **TreeSpline variants**  
+- Implementation of multiple **MTS variants**  
 - Synthetic data generators for controlled simulation studies  
 - Extensive comparison against **LinearGAM** from the `pygam` package across many experimental settings
 
@@ -14,7 +14,7 @@ The project includes:
 
 ### Jupyter Notebook
 - **`spline_tree.ipynb`** — Main notebook containing:
-  - Implementation of the TreeSpline model and its variants  
+  - Implementation of the MTS model and its variants  
   - Data-generation utilities for correlated and uncorrelated feature scenarios  
   - Experimental comparisons with GAM and polynomial baselines  
   - Visualization of model performance, error behavior, and computational cost  
@@ -31,7 +31,7 @@ Variants with inadequate empirical performance were excluded from the final comp
 
 ## 🧱 Repository Structure
 ```
-TreeSpline/
+MTS/
 ├── spline_tree.ipynb        # Main research notebook: models, simulations, comparisons
 ├── nparrs/                  # Stored NumPy arrays for the result history of experiments
 └── README.md                # Project description
@@ -41,7 +41,7 @@ TreeSpline/
 
 ## 🧪 Experiments & Evaluation
 
-The project includes several controlled simulation environments, designed to compare TreeSpline to classic GAM approaches.
+The project includes several controlled simulation environments, designed to compare MTS to classic GAM approaches.
 
 ### Experimental Scenarios
 - **Synthetic datasets** with adjustable:
@@ -60,7 +60,7 @@ The project includes several controlled simulation environments, designed to com
 - Number of leaf partitions  
 - Behavior under correlated vs. independent features  
 
-These experiments reveal strengths and limitations of TreeSpline across regimes and help identify the variants with the best empirical performance.
+These experiments reveal strengths and limitations of MTS across regimes and help identify the variants with the best empirical performance.
 
 ---
 
@@ -70,5 +70,5 @@ This repository is a research project on **hybrid statistical–machine learning
 It aims to provide:
 
 - A reproducible benchmarking framework  
-- A foundation for publishing TreeSpline as a novel modeling approach  
+- A foundation for publishing MTS as a novel modeling approach  
 - Insight into how structural partitioning improves spline-based regression  
