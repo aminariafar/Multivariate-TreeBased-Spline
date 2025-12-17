@@ -16,7 +16,7 @@ The project includes:
 - **`spline_tree.ipynb`** — Main notebook containing:
   - Implementation of the MTS model and its variants  
   - Data-generation utilities for correlated and uncorrelated feature scenarios  
-  - Experimental comparisons with GAM and polynomial baselines  
+  - Experimental comparisons with GAM, GLMTree, MARS, and SMART models  
   - Visualization of model performance, error behavior, and computational cost  
 
 ### Model Highlights
@@ -41,7 +41,7 @@ MTS/
 
 ## 🧪 Experiments & Evaluation
 
-The project includes several controlled simulation environments, designed to compare MTS to classic GAM approaches.
+The project includes several controlled simulation environments, designed to compare MTS to classical models which perform subgroup specific regression: GAM, GLMTree, MARS, and SMART.
 
 ### Experimental Scenarios
 - **Synthetic datasets** with adjustable:
