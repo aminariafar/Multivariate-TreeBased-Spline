@@ -1,4 +1,4 @@
-# 🌳 Multivariate-TreeBased-Spline (MTS): A Tree-Guided Spline / GAM Modeling Framework
+# 🌳 Multivariate Tree-Based Spline (MTS): A Tree-Guided Spline / GAM Modeling Framework
 
 This repository contains the implementation and experimental evaluation of a **new spline-based modeling approach**, called **Multivariate-TreeBased-Spline (MTS)**, developed as part of a research collaboration with [**Dr. Abdollah Safari**](https://science.ut.ac.ir/~a.safari).  
 The method extends classical spline models (and their multivariate generalization, **Generalized Additive Models — GAMs**) by introducing a **decision-tree–guided partitioning** of the feature space, followed by **local polynomial modeling within each leaf**.
@@ -6,7 +6,7 @@ The method extends classical spline models (and their multivariate generalizatio
 The project includes:
 - Implementation of multiple **MTS variants**  
 - Synthetic data generators for controlled simulation studies  
-- Extensive comparison against **LinearGAM** from the `pygam` package across many experimental settings
+- Extensive comparison against **LinearGAM** (from the `pygam` package) and **GLMTree** model (implemented based on partykit::glmtree in R language) across many experimental settings
 
 ---
 
